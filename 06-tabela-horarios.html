@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Horarios Escolares</title>
+</head>
+
+<style>
+    table{
+        border-collapse: collapse;
+          width: 100%;
+          border: 1px solid rgb(198, 9, 85);
+    }
+
+    thead th{
+         background-color: rgb(255, 39, 147);
+         color: white;
+    }
+
+    th, td{
+        padding: 8px 16px;
+        text-align: center;
+    }
+    
+    tbody tr:hover{
+        background-color: rgb(184, 244, 255);
+
+    }
+
+    .intervalo{
+        background-color: rgb(255, 192, 218);
+
+    }
+</style>
+
+
+
+
+
+
+
+<body>
+    <table border="1">
+        <caption style="color: purple"><b>Tabela de Horários</b></caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Horário</th>
+                <th scope="col">Segunda-Feira</th>
+                <th scope="col">Terça-Feira</th>
+                <th scope="col">Quarta-Feira</th>
+                <th scope="col">Quinta-Feira</th>
+                <th scope="col">Sexta-Feira</th>
+            </tr>        
+        </thead>
+        <tbody>
+            <tr>
+                <td>07:00 - 07:50</td>
+                <td>Matemática</td>
+                <td>Geografia</td>
+                <td>Lingua P.</td>
+                <td>Ciências</td>
+                <td>História</td>
+            </tr>
+
+            <tr>
+                <td>7:50 - 08:40</td>
+                <td>Matemática</td>
+                <td>Geografia</td>
+                <td>Lingua P.</td>
+                <td>Ciências</td>
+                <td>História</td>
+            </tr>
+
+            <tr>
+                <td>08:40 - 09:30</td>
+                <td>Inglês</td>
+                <td>ED Física</td>
+                <td>Inglês</td>
+                <td>Matemática</td>
+                <td>Arte</td>
+            </tr>
+
+            <tr>
+                <td colspan="6" rowspan="1" class="intervalo"><b>Intervalo</b> - 09:30 ás 09:50</td>
+                
+            </tr>
+
+            <tr>
+                <td>09:50 - 10:40</td>
+                <td>História</td>
+                <td>Matemática</td>
+                <td>Ciências</td>
+                <td>Lingua P.</td>
+                <td>Geografia</td>
+            </tr>
+
+            <tr>
+                <td>10:40 - 11:30</td>
+                <td>Ciências</td>
+                <td>História</td>
+                <td>ED Física</td>
+                <td>Arte</td>
+                <td>Matemática</td>
+            </tr>
+
+            <tr>
+                <td>11:30 - 12:20</td>
+                <td>Lingua P.</td>
+                <td>Inglês</td>
+                <td>Matemática</td>
+                <td>Geografia</td>
+                <td>Ciências</td>
+            </tr>
+
+            <tr>
+                <td>12:20 - 13:30</td>
+                <td>Leitura/Projetos</td>
+                <td>Leitura/Projetos</td>
+                <td>Leitura/Projetos</td>
+                <td>Leitura/Projetos</td>
+                <td>Leitura/Projetos</td>
+            </tr>
+
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
